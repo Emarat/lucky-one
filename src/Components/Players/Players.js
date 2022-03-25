@@ -19,7 +19,7 @@ const Players = () => {
                     ></Body>)
                 }
             </div>
-            <div>
+            <div className='uiSideBar'>
                 <h3>PLAYING XI</h3>
             </div>
         </div>
