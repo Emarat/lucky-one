@@ -1,0 +1,14 @@
+.players{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    background-color: #110f0d;
+}
+
+.playersUI{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    padding-left: 50px;
+    margin: 50px 0;
+    
+}

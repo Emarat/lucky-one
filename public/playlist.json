@@ -1,0 +1,112 @@
+{
+    "PLAYERS": [
+        {
+            "id": 1003,
+            "name": "Iñaki Peña",
+            "position": "Goalkeeper",
+            "image": "PEÑA.jpg"
+        },
+        {
+            "id": 1101,
+            "name": "Marc-André ter Stegen",
+            "position": "Goalkeeper",
+            "image": "STEGEN.jpg"
+        },
+        {
+            "id": 1402,
+            "name": "Ronald Araújo",
+            "position": "Defender",
+            "image": "ARAÚJO.jpg"
+        },
+        {
+            "id": 1027,
+            "name": "Óscar Mingueza",
+            "position": "Defender",
+            "image": "MINGUEZA.jpg"
+        },
+        {
+            "id": 1009,
+            "name": "Gerard Piqué",
+            "position": "Defender",
+            "image": "PIQUÉ.jpg"
+        },
+        {
+            "id": 1033,
+            "name": "Clément Lenglet",
+            "position": "Defender",
+            "image": "LENGLET.jpg"
+        },
+        {
+            "id": 1048,
+            "name": "Sergino Dest",
+            "position": "Right Full-Back",
+            "image": "DEST.jpg"
+        },
+        {
+            "id": 1041,
+            "name": "Jordi Alba",
+            "position": "Left Full-Back",
+            "image": "ALBA.jpg"
+        },
+        {
+            "id": 1404,
+            "name": "Sergio Busquets",
+            "position": "Defensive Midfielder",
+            "image": "BUSQUETS.jpg"
+        },
+        {
+            "id": 1201,
+            "name": "Frenkie de Jong",
+            "position": "Box-to-Box Midfielder",
+            "image": "JONG.jpg"
+        },
+        {
+            "id": 1304,
+            "name": "Riqui Puig",
+            "position": "Centre Midfield",
+            "image": "PUIG.jpg"
+        },
+        {
+            "id": 1043,
+            "name": "Pedri",
+            "position": "Centre Midfield",
+            "image": "PEDRI.jpg"
+        },
+        {
+            "id": 1016,
+            "name": "Miralem Pjanic",
+            "position": "Playmaker",
+            "image": "PJANIC.jpg"
+        },
+        {
+            "id": 1030,
+            "name": "Antoine Griezmann",
+            "position": "Striker",
+            "image": "GRIEZMANN.jpg"
+        },
+        {
+            "id": 1028,
+            "name": "Martin Braithwaite",
+            "position": "Striker",
+            "image": "BRAITHWAITE.jpg"
+        },
+        {
+            "id": 1026,
+            "name": "Ousmane Dembélé",
+            "position": "Right Winger",
+            "image": "DEMBÉLÉ.jpg"
+        },
+        {
+            "id": 1029,
+            "name": "Ansu Fati",
+            "position": "Left Winger",
+            "image": "FATI.jpg"
+        },
+        {
+            "id": 1104,
+            "name": "Francisco Trincão",
+            "position": "Right Winger",
+            "image": "TRINCÃO.jpg"
+        }
+    ]
+}
