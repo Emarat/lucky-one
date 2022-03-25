@@ -4,11 +4,18 @@ import './Players.css';
 
 const Players = () => {
     const [players, setPlayer] = useState([]);
+    const [squad, setSquad] = useState([]);
+
+    const addToSquad = () => {
+        console.log("clicked")
+    }
+
     useEffect(() => {
         fetch('playlist.json')
             .then(res => res.json())
             .then(data => setPlayer(data.PLAYERS))
     }, [])
+
     return (
         <div className='players'>
             <div className='playersUI'>
@@ -16,6 +23,7 @@ const Players = () => {
                     players.map(player => <Body
                         key={player.id}
                         player={player}
+                        addToSquad={addToSquad}
                     ></Body>)
                 }
             </div>

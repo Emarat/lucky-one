@@ -11,7 +11,7 @@ const Body = (props) => {
                 <p>Name: {name}</p>
                 <p>Position: {position}</p>
             </div>
-            <button className='btn'>
+            <button onClick={() => props.addToSquad()} className='btn'>
                 <p>ADD TO SQUAD</p>
             </button>
         </div>
