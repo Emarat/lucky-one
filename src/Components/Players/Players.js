@@ -11,6 +11,9 @@ const Players = () => {
         if (newSquad.length !== 12) {
             setSquads(newSquad)
         }
+        else {
+            window.alert("You can't add more than 11 players!");
+        }
     }
 
     useEffect(() => {
@@ -30,13 +33,25 @@ const Players = () => {
                     ></Body>)
                 }
             </div>
-            <div className='uiSideBar'>
-                <h3>PLAYING XI</h3>
-                {
-                    squads.map(squad => <li>{squad.name}</li>)
-                }
+            <div>
+                <div className='uiSideBar'>
+                    <div>
+                        <h3>PLAYING XI</h3>
+                        {
+                            squads.map(squad => <li>{squad.name}</li>)
+                        }
+                    </div>
+                    <div className='cartBtn'>
+                        <button className='btn-1'>
+                            <p>CHOOSE CAPTAIN</p>
+                        </button>
+                        <button className='btn-1'>
+                            <p>RESET</p>
+                        </button>
+                    </div>
+                </div>
             </div>
-        </div>
+        </div >
     );
 };
 
