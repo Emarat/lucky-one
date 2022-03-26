@@ -1,9 +1,9 @@
 # Getting Started with Create React App
 FC Barcelona
-[Live Website Url](https://forcabarca.netlify.app/).
+
 
 ## Available Scripts
-
+[Live Website Url](https://forcabarca.netlify.app/).
 In the project directory, you can run:
 
 ### `npm start`
