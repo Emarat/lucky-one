@@ -4,10 +4,11 @@ import './Players.css';
 
 const Players = () => {
     const [players, setPlayer] = useState([]);
-    const [squad, setSquad] = useState([]);
+    const [squads, setSquads] = useState([]);
 
-    const addToSquad = () => {
-        console.log("clicked")
+    const addToSquad = (player) => {
+        const newSquad = [...squads, player];
+        setSquads(newSquad)
     }
 
     useEffect(() => {
@@ -29,6 +30,9 @@ const Players = () => {
             </div>
             <div className='uiSideBar'>
                 <h3>PLAYING XI</h3>
+                {
+                    squads.map(squad => <li>{squad.name}</li>)
+                }
             </div>
         </div>
     );

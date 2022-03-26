@@ -4,6 +4,7 @@ import './Body.css';
 const Body = (props) => {
     console.log(props.player)
     const { name, position, image } = props.player;
+    const { addToSquad, player } = props;
     return (
         <div className='body'>
             <div className='bodyUI'>
@@ -11,7 +12,7 @@ const Body = (props) => {
                 <p>Name: {name}</p>
                 <p>Position: {position}</p>
             </div>
-            <button onClick={() => props.addToSquad()} className='btn'>
+            <button onClick={() => addToSquad(player)} className='btn'>
                 <p>ADD TO SQUAD</p>
             </button>
         </div>
