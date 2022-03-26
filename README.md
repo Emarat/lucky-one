@@ -1,6 +1,6 @@
 # Getting Started with Create React App
-
-This project was bootstrapped with [FC Barcelona](https://forcabarca.netlify.app/).
+FC Barcelona
+[Live Website Url](https://forcabarca.netlify.app/).
 
 ## Available Scripts
 
