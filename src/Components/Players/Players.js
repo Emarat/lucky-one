@@ -8,7 +8,9 @@ const Players = () => {
 
     const addToSquad = (player) => {
         const newSquad = [...squads, player];
-        setSquads(newSquad)
+        if (newSquad.length !== 12) {
+            setSquads(newSquad)
+        }
     }
 
     useEffect(() => {
