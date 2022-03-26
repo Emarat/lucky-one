@@ -29,9 +29,10 @@
     display: flex;
     gap: 5px;
     margin-left: -35px;
-    position: fixed;
-    bottom: 60px;
+    position: absolute;
+    bottom: 125px;
 }
 .btn-1{
     border-radius: 6px;
 }
+

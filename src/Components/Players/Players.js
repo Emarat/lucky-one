@@ -10,11 +10,15 @@ const Players = () => {
         const newSquad = [...squads, player];
         if (newSquad.length !== 12) {
             setSquads(newSquad)
+            console.log(newSquad[1])
         }
         else {
             window.alert("You can't add more than 11 players!");
         }
+
     }
+
+
 
     useEffect(() => {
         fetch('playlist.json')
@@ -32,23 +36,27 @@ const Players = () => {
                         addToSquad={addToSquad}
                     ></Body>)
                 }
+
             </div>
             <div>
                 <div className='uiSideBar'>
                     <div>
                         <h3>PLAYING XI</h3>
                         {
-                            squads.map(squad => <li>{squad.name}</li>)
+                            squads.map(squad => <li
+                                key={squad.id}>{squad.name}</li>)
                         }
+
+                        <div className='cartBtn'>
+                            <button className='btn-1'>
+                                <p>CHOOSE CAPTAIN</p>
+                            </button>
+                            <button className='btn-1'>
+                                <p>RESET</p>
+                            </button>
+                        </div>
                     </div>
-                    <div className='cartBtn'>
-                        <button className='btn-1'>
-                            <p>CHOOSE CAPTAIN</p>
-                        </button>
-                        <button className='btn-1'>
-                            <p>RESET</p>
-                        </button>
-                    </div>
+
                 </div>
             </div>
         </div >

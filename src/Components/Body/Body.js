@@ -4,7 +4,7 @@ import React from 'react';
 import './Body.css';
 
 const Body = (props) => {
-    console.log(props.player)
+    // console.log(props.player)
     const { name, position, image } = props.player;
     const { addToSquad, player } = props;
     return (
